@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport">
+  <title>Comandos Git Explicados</title>
+  <link rel="stylesheet" href="estilo2.css">
+</head>
+<body>
+  <h1>Comandos Git - Explicação Técnica e Simples</h1>
+
+  <div class="comando">
+    <h2><code>git init</code></h2>
+    <p>Inicializa um novo repositório Git no diretório atual.</p>
+  </div>
+
+  <div class="comando">
+    <h2><code>git add .</code></h2>
+    <p>Adiciona todos os arquivos modificados ou novos ao "staging area" (área de preparação para commit).</p>
+  </div>
+
+  <div class="comando">
+    <h2><code>git add arquivo.txt</code></h2>
+    <p>Adiciona o arquivo <code>arquivo.txt</code> ao staging area.</p>
+  </div>
+
+  <div class="comando">
+    <h2><code>git commit -am "mensagem"</code></h2>
+    <p>Registra as mudanças com uma mensagem. O <code>-a</code> inclui arquivos já monitorados, e o <code>-m</code> adiciona a mensagem.</p>
+  </div>
+
+  <div class="comando">
+    <h2><code>git checkout -b feat/novo</code></h2>
+    <p>Cria uma nova branch chamada <code>feat/novo</code> e muda para ela.</p>
+  </div>
+
+  <div class="comando">
+    <h2><code>git checkout feat/novo</code></h2>
+    <p>Alterna para a branch <code>feat/novo</code>.</p>
+  </div>
+
+  <div class="comando">
+    <h2><code>git remote add origin URL_GITHUB</code></h2>
+    <p>Adiciona o repositório remoto com apelido <code>origin</code>.</p>
+  </div>
+
+  <div class="comando">
+    <h2><code>git push -u origin feat/novo</code></h2>
+    <p>Envia a branch atual para o GitHub e define <code>origin</code> como o remoto padrão para essa branch.</p>
+  </div>
+
+  <div class="comando">
+    <h2><code>git pull</code></h2>
+    <p>Baixa e incorpora mudanças do repositório remoto para o local.</p>
+  </div>
+
+  <div class="comando">
+    <h2><code>git log</code></h2>
+    <p>Exibe o histórico de commits da branch atual.</p>
+  </div>
+
+  <div class="comando">
+    <h2><code>git branch</code></h2>
+    <p>Lista todas as branches e indica qual está atualmente selecionada.</p>
+  </div>
+
+  <div class="comando">
+    <h2><code>git branch -M novo-nome</code></h2>
+    <p>Renomeia a branch atual para <code>novo-nome</code>.</p>
+  </div>
+
+  <div class="comando">
+    <h2><code>git clone URL_GITHUB</code></h2>
+    <p>Clona um repositório remoto (no GitHub) para o seu computador.</p>
+  </div>
+</body>
+</html>
